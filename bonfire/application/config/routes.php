@@ -38,7 +38,7 @@
 |
 */
 
-$route['default_controller'] = "home";
+$route['default_controller'] = "clients";
 $route['404_override'] = '';
 
 // Authorization

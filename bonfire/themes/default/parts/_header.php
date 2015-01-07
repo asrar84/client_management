@@ -8,7 +8,7 @@
 			
 	$inline  = '$(".dropdown-toggle").dropdown();';
 	$inline .= '$(".tooltips").tooltip();';
-	$inline .= '$(".login-btn").click(function(e){ e.preventDefault(); $("#modal-login").modal(); });';
+	//$inline .= '$(".login-btn").click(function(e){ e.preventDefault(); $("#modal-login").modal(); });';
 
 	Assets::add_js( $inline, 'inline' );
 

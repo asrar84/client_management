@@ -70,6 +70,11 @@
 
 	</div>
 </div>
+<div class="row">
+	<div class="span12" style="text-align: center;">
+		<a href="clients/registration" class="btn btn-primary" style="">Register Now</a>
+	</div>
+</div>
 
 <?php // show for Email Activation (1) only
 	if ($this->settings_lib->item('auth.user_activation_method') == 1) : ?>
@@ -93,9 +98,9 @@
 	<div class="span12">
 
 	<p style="text-align: center" class="well">
-		<?php if ( $site_open ) : ?>
-			<?php echo lang('us_no_account'); ?> <?php echo anchor('/register', lang('us_sign_up')); ?> &nbsp;&nbsp; &#8226; &nbsp;&nbsp;
-		<?php endif; ?>
+		<?php //if ( $site_open ) : ?>
+			<?php //echo lang('us_no_account'); ?> <?php //echo anchor('/register', lang('us_sign_up')); ?><!--  &nbsp;&nbsp; &#8226; &nbsp;&nbsp; -->
+		<?php //endif; ?>
 
 		<?php echo anchor('/forgot_password', lang('us_forgot_your_password')); ?>
 	</p>
