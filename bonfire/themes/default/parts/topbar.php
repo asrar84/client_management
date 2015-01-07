@@ -31,19 +31,19 @@
 								</a>
 							</li>
 
-							<?php if (has_permission('Site.Content.View')) : ?>
-							<li class="divider"></li>
+							<?php //if (has_permission('Site.Content.View')) : ?>
+							<!-- <li class="divider"></li>
 							<li>
-								<?php echo anchor(SITE_AREA, 'Control Panel'); ?>
+								<?php //echo anchor(SITE_AREA, 'Control Panel'); ?>
 							</li>
 
-							<?php endif; ?>
+							<?php //endif; ?>
 							<li class="divider"></li>
 							<li>
-								<a href="<?php echo site_url('users/profile');?>">
-									<?php echo lang('bf_user_settings') ?>
+								<a href="<?php //echo site_url('users/profile');?>">
+									<?php //echo lang('bf_user_settings') ?>
 								</a>
-							</li>
+							</li> -->
 
 							<li class="divider"></li>
 							<li>
@@ -56,11 +56,11 @@
 
 					<?php else :  ?>
 
-						<li>
-							<a href="<?php echo site_url('register');?>">
-								<?php echo lang('bf_action_register') ?>
+						<!-- <li>
+							<a href="<?php //echo site_url('register');?>">
+								<?php //echo lang('bf_action_register') ?>
 							</a>
-						</li>
+						</li> -->
 						<li>
 							<a href="<?php echo site_url('login');?>" class="login-btn">
 								<?php echo lang('bf_action_login') ?>
