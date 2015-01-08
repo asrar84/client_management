@@ -19,7 +19,7 @@ class Clients extends Front_Controller
 	}//end __construct()
 
 	public function index(){
-		$this->auth->restrict('Site.Admin.View', site_url('login'));
+		$this->auth->restrict('Site.Admin.View', site_url('clients/registration'));
 		
 		$search_filters = array();
 		if($_POST)
